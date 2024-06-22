@@ -1,0 +1,14 @@
+:root {
+  --font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --bg: #FCF8F1;
+  --color: #905D16;
+  --dark: #1C1C1C;
+  --link: #968F7F;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+}
