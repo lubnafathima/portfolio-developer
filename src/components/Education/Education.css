@@ -1,0 +1,63 @@
+.education_container {
+  margin-top: 10rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.education {
+  width: 60%;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.education_content {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.education_title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  width: 30%;
+}
+
+.education_course {
+  width: 30%;
+  color: var(--link);
+}
+
+.education_marks,
+.education_duration {
+  width: 20%;
+  color: var(--link);
+}
+
+@media screen and (max-width: 1200px) {
+  .education,
+  .education_content,
+  .education_title,
+  .education_course,
+  .education_marks,
+  .education_duration {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .education {
+    width: 90%;
+  }
+
+  .education_content {
+    width: 90%;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-bottom: 3rem;
+  }
+}

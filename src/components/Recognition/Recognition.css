@@ -1,0 +1,47 @@
+.recognition_container {
+  margin-top: 10rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.recognition {
+  width: 60%;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.recognition_content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.recognition_title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1200px) {
+  .recognition,
+  .recognition_content {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .recognition {
+    width: 90%;
+  }
+
+  .recognition_content {
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-bottom: 3rem;
+  }
+}

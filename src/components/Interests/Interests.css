@@ -1,0 +1,15 @@
+.interests_container {
+  padding: 10rem 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.interests {
+  width: 60%;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}

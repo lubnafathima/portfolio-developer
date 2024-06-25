@@ -1,4 +1,5 @@
 import Logo from "../../assets/icons/logo.jpeg";
+import Line from "../../assets/icons/curved_line.png";
 import "./About.css";
 
 const About = () => {
@@ -12,19 +13,17 @@ const About = () => {
           crafting intuitive user experiences.
         </h1>
       </div>
-      <div className="divider"></div>
       <div className="about">
-        <p className="about_content">
+          <img src={Line} alt="line" className="line" />
+          <p className="about_content">
           My journey began with a fascination for technology during my early
           years, which evolved into a career driven by a commitment to
           excellence in coding and user experience design.
         </p>
-        <br />
         <p className="about_content">
           I have honed my skills in translating design concepts into functional
           web applications.
         </p>
-        <br />
         <p className="about_content">
           My expertise spans across modern frontend technologies such as HTML5,
           CSS3, JavaScript, and various frameworks like React and Next JS,
@@ -33,7 +32,7 @@ const About = () => {
         </p>
       </div>
       <div className="about_divider"></div>
-      </>
+    </>
   );
 };
 

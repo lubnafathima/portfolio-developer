@@ -28,8 +28,7 @@
   color: var(--color);
 }
 
-.divider,
-.about_divider {
+.divider {
   width: 10vw;
   display: flex;
   justify-content: center;
@@ -42,24 +41,38 @@
 
 .about_divider {
   width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--divider);
+  height: 0.1rem;
+  margin: auto;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10rem;
 }
 
 .about {
-  margin-top: 5rem;
   width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 10rem;
 }
 
 .about_content {
   width: 40%;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   letter-spacing: 0.5px;
   line-height: 2.3rem;
-  word-spacing: 0.35rem;
+  margin-bottom: 2rem;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 1200px) {
@@ -84,7 +97,7 @@
 
   .about_content {
     width: 80%;
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.7rem;
   }
 }
