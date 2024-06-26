@@ -34,7 +34,7 @@
 }
 
 .social_id:hover {
-  font-weight: var(--link);
+  color: var(--color);
 }
 
 .copywrite {
@@ -58,7 +58,4 @@
   .social_id {
     font-size: 1rem;
   }
-}
-
-@media screen and (max-width: 480px) {
 }

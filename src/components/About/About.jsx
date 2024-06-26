@@ -1,4 +1,4 @@
-import Logo from "../../assets/icons/logo.jpeg";
+import { data } from "../../utils/data";
 import Line from "../../assets/icons/curved_line.png";
 import "./About.css";
 
@@ -6,7 +6,7 @@ const About = () => {
   return (
     <>
       <div className="main">
-        <img src={Logo} alt="logo" className="logo" />
+        <img src={data.about.logo} alt="logo" className="logo" />
         <h1 className="title">
           I&#39;m Lubna — a frontend{" "}
           <span className="developer">developer</span>, passionate about
