@@ -36,8 +36,18 @@
 }
 
 .recentWork_title {
+  color: var(--dark);
   font-size: 1.3rem;
   font-weight: 500;
+  transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -ms-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+}
+
+.recentWork_title:hover {
+  text-decoration: underline;
 }
 
 .recentWork_description {

@@ -45,6 +45,12 @@
   font-size: 1.3rem;
   font-weight: 500;
   text-decoration: none;
+  color: var(--dark);
+  transition: 1s ease-in-out;
+}
+
+.archives_title:hover {
+  text-decoration: underline;
 }
 
 .archives_description {

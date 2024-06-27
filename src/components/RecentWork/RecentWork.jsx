@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { data } from "../../utils/data";
 import "./RecentWork.css";
 
@@ -9,11 +8,7 @@ const RecentWork = () => {
       <h1 className="recentWork">Recent work</h1>
       <div className="recentWork_content">
         {data.work.map((item) => (
-          <Link
-            to={`/project/${item.id}`}
-            key={item.id}
-            className="recentWork_card"
-          >
+          <a href={item?.demoLink} key={item?.id} className="recentWork_card" target="_blank">
             <img src={item?.imgSrc} alt="logo" className="recentWork_img" />
             <h2 className="recentWork_title">
               {item?.title} /{" "}
@@ -22,7 +17,7 @@ const RecentWork = () => {
               </span>
             </h2>
             <p className="recentWork_designation">{item?.designation}</p>
-          </Link>
+          </a>
         ))}
       </div>
     </div>

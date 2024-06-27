@@ -7,7 +7,7 @@ const Archives = () => {
       <h1 className="archives">From the Archives</h1>
       <div className="archives_content">
         {data.archives.map((item) => (
-          <a href="" key={item.id} className="archives_card" target="_blank">
+          <a href={item?.demoLink} key={item.id} className="archives_card" target="_blank">
             <img src={item?.imgSrc} alt="logo" className="archives_img" />
             <h2 className="archives_title">
               {item?.title} /{" "}
