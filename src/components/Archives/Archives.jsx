@@ -1,21 +1,21 @@
 import { data } from "../../utils/data";
-import "./Archives.css";
+import styles from "./Archives.module.css";
 
 const Archives = () => {
   return (
-    <div className="archives_container">
-      <h1 className="archives">From the Archives</h1>
-      <div className="archives_content">
+    <div className={styles.archives_container}>
+      <h1 className={styles.archives}>From the Archives</h1>
+      <div className={styles.archives_content}>
         {data.archives.map((item) => (
-          <a href={item?.demoLink} key={item.id} className="archives_card" target="_blank">
-            <img src={item?.imgSrc} alt="logo" className="archives_img" />
-            <h2 className="archives_title">
+          <a href={item?.demoLink} key={item.id} className={styles.archives_card} target="_blank">
+            <img src={item?.imgSrc} alt="logo" className={styles.archives_img} />
+            <h2 className={styles.archives_title}>
               {item?.title} /{" "}
-              <span className="archives_description">
+              <span className={styles.archives_description}>
                 {item?.description}
               </span>
             </h2>
-            <p className="archives_designation">{item?.designation}</p>
+            <p className={styles.archives_designation}>{item?.designation}</p>
           </a>
         ))}
       </div>

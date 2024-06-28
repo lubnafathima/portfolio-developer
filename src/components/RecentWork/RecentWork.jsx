@@ -1,22 +1,22 @@
 import { data } from "../../utils/data";
-import "./RecentWork.css";
+import styles from "./RecentWork.module.css";
 
 const RecentWork = () => {
   console.log(data.work[0].title);
   return (
-    <div className="recentWork_container">
-      <h1 className="recentWork">Recent work</h1>
-      <div className="recentWork_content">
+    <div className={styles.recentWork_container}>
+      <h1 className={styles.recentWork}>Recent work</h1>
+      <div className={styles.recentWork_content}>
         {data.work.map((item) => (
-          <a href={item?.demoLink} key={item?.id} className="recentWork_card" target="_blank">
-            <img src={item?.imgSrc} alt="logo" className="recentWork_img" />
-            <h2 className="recentWork_title">
+          <a href={item?.demoLink} key={item?.id} className={styles.recentWork_card} target="_blank">
+            <img src={item?.imgSrc} alt="logo" className={styles.recentWork_img} />
+            <h2 className={styles.recentWork_title}>
               {item?.title} /{" "}
-              <span className="recentWork_description">
+              <span className={styles.recentWork_description}>
                 {item?.description}
               </span>
             </h2>
-            <p className="recentWork_designation">{item?.designation}</p>
+            <p className={styles.recentWork_designation}>{item?.designation}</p>
           </a>
         ))}
       </div>

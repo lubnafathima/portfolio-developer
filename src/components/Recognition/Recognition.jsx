@@ -1,11 +1,11 @@
-import "./Recognition.css";
+import styles from "./Recognition.module.css";
 
 const Recognition = () => {
   return (
-    <div className="recognition_container">
-      <h1 className="recognition">Recognition</h1>
-      <div className="recognition_content">
-        <p className="recognition_title">Finalist, Smart India Hackathon 2020</p>
+    <div className={styles.recognition_container}>
+      <h1 className={styles.recognition}>Recognition</h1>
+      <div className={styles.recognition_content}>
+        <p className={styles.recognition_title}>Finalist, Smart India Hackathon 2020</p>
       </div>
     </div>
   );

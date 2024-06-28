@@ -1,17 +1,17 @@
 import { data } from "../../utils/data.js";
-import "./Footer.css";
+import styles from "./Footer.module.css";
 import { MdOutlineArrowOutward } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className="footer_container">
-      <div className="footer_content">
-        <div className="social_links">
+    <div className={styles.footer_container}>
+      <div className={styles.footer_content}>
+        <div className={styles.social_links}>
           {data?.footer?.socialLinks.map((link) => (
             <a
               key={link.id}
               href={link?.url}
-              className="social_id"
+              className={styles.social_id}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -20,7 +20,7 @@ const Footer = () => {
             </a>
           ))}
         </div>
-        <p className="copywrite">{data?.footer?.copywrite}</p>
+        <p className={styles.copywrite}>{data?.footer?.copywrite}</p>
       </div>
     </div>
   );

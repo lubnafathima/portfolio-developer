@@ -5,11 +5,11 @@ import Recognition from "../../components/Recognition/Recognition";
 import RecentWork from "../../components/RecentWork/RecentWork";
 import Archives from "../../components/Archives/Archives";
 import Footer from "../../components/Footer/Footer";
-import "./Home.css";
+import styles from "./Home.module.css";
 
 const Home = () => {
   return (
-    <div className="home">
+    <div className={styles.home}>
       <About />
       <Experience />
       <Education />
