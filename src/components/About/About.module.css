@@ -8,6 +8,25 @@
   width: 100%;
   min-height: 100vh;
   padding-top: 12rem;
+  position: relative;
+}
+
+.about_button {
+  position: fixed;
+  top: 2%;
+  right: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.75rem;
+  text-decoration: none;
+  color: var(--black);
+  margin-top: 2rem;
+}
+
+.about_button:hover {
+  color: var(--color);
 }
 
 .logo {
@@ -72,7 +91,7 @@
   letter-spacing: 0.5px;
   line-height: 2.3rem;
   margin-bottom: 2rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 1200px) {

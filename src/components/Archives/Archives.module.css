@@ -47,6 +47,7 @@
   text-decoration: none;
   color: var(--dark);
   transition: 1s ease-in-out;
+  text-decoration: none;
 }
 
 .archives_title:hover {
@@ -56,6 +57,7 @@
 .archives_description {
   color: var(--title);
   text-decoration: none;
+  font-size: 1rem;
 }
 
 .archives_designation {
@@ -63,6 +65,7 @@
   text-transform: uppercase;
   font-weight: 600;
   font-size: 0.9rem;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1200px) {

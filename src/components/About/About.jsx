@@ -1,6 +1,7 @@
 import { data } from "../../utils/data";
 import Line from "../../assets/icons/curved_line.png";
 import styles from "./About.module.css";
+import { MdOutlineArrowOutward } from "react-icons/md";
 
 const About = () => {
   return (
@@ -12,10 +13,19 @@ const About = () => {
           <span className={styles.developer}>developer</span>, passionate about
           crafting intuitive user experiences.
         </h1>
+        <a
+          href="https://drive.google.com/file/d/1KZY0rfgmFCu--AWr2cELcsZT69UBY960/view?usp=drive_link"
+          className={styles.about_button}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span>Resume</span>
+          <MdOutlineArrowOutward />
+        </a>
       </div>
       <div className={styles.about}>
-          <img src={Line} alt="line" className={styles.line} />
-          <p className={styles.about_content}>
+        <img src={Line} alt="line" className={styles.line} />
+        <p className={styles.about_content}>
           My journey began with a fascination for technology during my early
           years, which evolved into a career driven by a commitment to
           excellence in coding and user experience design.
@@ -31,7 +41,6 @@ const About = () => {
           user interaction.
         </p>
       </div>
-      <div className={styles.about_divider}></div>
     </>
   );
 };
