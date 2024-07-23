@@ -14,7 +14,7 @@ const About = () => {
           crafting intuitive user experiences.
         </h1>
         <a
-          href="https://drive.google.com/file/d/1KZY0rfgmFCu--AWr2cELcsZT69UBY960/view?usp=drive_link"
+          href="https://drive.google.com/file/d/19RRGRYMJj1mBsTKkVBPBikVdJ_-AOaYc/view?usp=sharing"
           className={styles.about_button}
           target="_blank"
           rel="noopener noreferrer"

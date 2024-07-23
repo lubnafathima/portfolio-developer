@@ -68,6 +68,24 @@
   text-decoration: none;
 }
 
+.archives_btn {
+  background-color: var(--color);
+  border: 1px solid var(--color);
+  color: var(--bg);
+  padding: .75rem 1.5rem;
+  border-radius: 0.5rem;
+  /* transition: 1s ease-in-out; */
+  cursor: pointer;
+  margin-top: 5rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.archives_btn:hover {
+  background-color: var(--dark);
+  /* color: #fff; */
+}
+
 @media screen and (max-width: 1200px) {
   .archives,
   .archives_content {

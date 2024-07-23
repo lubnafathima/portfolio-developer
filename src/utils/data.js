@@ -106,6 +106,13 @@ export const data = {
       description: "React JS, JavaScript, Vite",
     },
     {
+      imgSrc: "https://github.com/user-attachments/assets/f929bf8a-99db-4676-9961-4da19940c8c1",
+      demoLink: "https://react-swiggy-app.vercel.app/",
+      githubLink: "https://github.com/lubnafathima/react-swiggy",
+      title: "Swiggy",
+      description: "React, Parcel, API",
+    },
+    {
       imgSrc: "https://github.com/user-attachments/assets/5a75962b-7e86-48a0-8899-e95a97995d25",
       demoLink: "https://counter-vite.vercel.app/",
       githubLink: "https://github.com/lubnafathima/counter-vite",
@@ -125,13 +132,6 @@ export const data = {
       githubLink: "https://github.com/lubnafathima/calendar-cra",
       title: "Calendar",
       description: "React JS | JavaScript | Create React App",
-    },
-    {
-      imgSrc: "https://github.com/user-attachments/assets/f929bf8a-99db-4676-9961-4da19940c8c1",
-      demoLink: "https://react-swiggy-app.vercel.app/",
-      githubLink: "https://github.com/lubnafathima/react-swiggy",
-      title: "Swiggy",
-      description: "React, Parcel, API",
     },
     {
       imgSrc: "https://github.com/user-attachments/assets/6eb788ed-5c00-4ad9-afd1-8f76caf44935",
