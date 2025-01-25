@@ -32,18 +32,24 @@ export const data = {
   experience: [
     {
       id: 1,
+      company: "Alphabit Technologies",
+      category: "IT Services and IT Consulting",
+      year: "2025-Present",
+    },
+    {
+      id: 2,
       company: "SenseGrass",
       category: "Agri-Tech",
       year: "2023-2024",
     },
     {
-      id: 2,
+      id: 3,
       company: "Kuvi Network",
       category: "Ed-Tech",
       year: "2023",
     },
     {
-      id: 3,
+      id: 4,
       company: "Fibo",
       category: "Health & Fitness",
       year: "2023",
